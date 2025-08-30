@@ -231,7 +231,57 @@ public class LoginProfileTest {
 
 **How to Run**
 **1. Open [JDoodle Java Compiler](https://www.jdoodle.com/online-java-compiler/).**
+
 **2. Paste this code → Run.**
+
+**-Automation Testing Project Report**
+
+1. Introduction
+This project focuses on automating key functionalities of Amazon’s website using Selenium WebDriver with Java. The goal is to simulate real-world e-commerce scenarios including product search, filtering, cart operations, price monitoring, and login verification.
+
+2. Background
+Manual testing of e-commerce platforms is time-consuming and error-prone. Automation helps improve efficiency, accuracy, and repeatability. Selenium WebDriver provides a robust framework for browser-based automation and functional testing.
+
+3. Learning Objectives
+* Understand and implement Selenium WebDriver commands (`get()`, `navigate().to()`).
+* Automate product search and filter operations with dynamic conditions.
+* Monitor product prices and implement alert mechanisms.
+* Validate shopping cart totals and user information with business rules.
+* Test login functionality with conditional validations and time-based execution.
+
+4. Activities and Tasks
+* Navigation Testing: Difference between `driver.get()` and `driver.navigate().to()`.
+* Product Search & Filters: Apply brand, price, and rating filters; test restricted to 3 PM–6 PM.
+* Price Monitoring: Monitor product price and trigger alert if below threshold.
+* Cart Automation: Add multiple products, validate total price and username rules; test restricted to 6 PM–7 PM.
+* Login Validation: Test login and verify profile name restrictions; test restricted to 12 PM–3 PM.
+
+5. Skills and Competencies
+* Programming: Java and Selenium WebDriver.
+* Test Automation: Locators (XPath, CSS), waits, time-based execution.
+* Validation & Business Rules: Price checks, username restrictions, rating filters.
+* Problem Solving: Handling dynamic web elements and implementing alert systems.
+
+6. Feedback and Evidence
+* Scripts were executed successfully for all tasks.
+* Time-based execution ensured tests only ran within specified windows.
+* Filters, validations, and alerts worked as intended.
+* Evidence includes console outputs, screenshots of filtered products, cart totals, and login verification.
+
+7. Challenges and Solutions
+* Dynamic Web Elements: Resolved using XPath/CSS selectors with indexing.
+* Synchronization Issues: Used implicit waits and page refreshes.
+* Time-Based Execution: Implemented `LocalTime` checks to restrict execution to specified hours.
+* Price Monitoring Alerts: Used polling and console notification; scalable to email alerts with JavaMail.
+
+8. Outcomes and Impact
+* Achieved automation of multiple Amazon workflows efficiently.
+* Reduced manual effort and improved accuracy in testing scenarios.
+* Developed reusable scripts with built-in validations for business rules.
+* Gained practical experience in test automation, dynamic element handling, and time-based execution.
+
+9. Conclusion
+The project successfully demonstrates automation testing of an e-commerce platform using Selenium WebDriver and Java. Tasks were completed with validations and time restrictions, enhancing testing efficiency and reliability. The project provided practical exposure to real-world automation challenges and solutions.
 
 
 

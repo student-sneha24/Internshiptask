@@ -1,5 +1,6 @@
 # Internshiptask
 **1.Explain the difference between driver.get() and driver.navigate().to() in Selenium WebDriver.**
+
 **driver.get(url)**:Opens a web page.
 Wait until the page is fully loaded.
 Commonly used for starting a test on a URL.

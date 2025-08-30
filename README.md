@@ -283,6 +283,17 @@ Manual testing of e-commerce platforms is time-consuming and error-prone. Automa
 9. Conclusion
 The project successfully demonstrates automation testing of an e-commerce platform using Selenium WebDriver and Java. Tasks were completed with validations and time restrictions, enhancing testing efficiency and reliability. The project provided practical exposure to real-world automation challenges and solutions.
 
+**test case**
+
+| Task | Description             | Input/Condition                                                 | Expected Outcome                               | Execution Time Window |
+| ---- | ----------------------- | --------------------------------------------------------------- | ---------------------------------------------- | --------------------- |
+| 1    | Navigation Testing      | Use `driver.get()` and `driver.navigate().to()`                 | Pages load successfully; navigate works        | Anytime               |
+| 2    | Product Search & Filter | Brand starts with C, Price > 2000, Rating ≥ 4                   | Filtered products displayed correctly          | 3 PM – 6 PM           |
+| 3    | Price Monitoring        | Monitor product price, threshold set                            | Console alert when price < threshold           | Anytime               |
+| 4    | Cart Automation         | Add multiple products; Username 10 chars, no special characters | Cart total > 2000; validations pass            | 6 PM – 7 PM           |
+| 5    | Login Validation        | Login with username excluding A,C,G,I,L,K                       | Username displayed correctly; validations pass | 12 PM – 3 PM          |
+
+
 
 
 
